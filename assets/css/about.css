@@ -179,6 +179,7 @@ Header .logo{
     background-blend-mode: luminosity;
     background-color: #5EC1FE;
     background-size: 9rem;
+    width: 100%;
 }
 .post{
   max-width: 35rem;

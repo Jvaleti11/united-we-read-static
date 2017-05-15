@@ -330,3 +330,38 @@ Header .logo {
     flex-wrap: wrap;
     /* margin-bottom: 1rem; */
 }
+.date {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1rem;
+    flex-direction: column;
+}
+.date p{
+  margin-top: 0px;
+}
+.shear ul {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.shear ul li{
+    max-width: 3rem;
+    padding-left: 1rem;
+}
+.shear ul li.facebook img{
+    height: 2rem;
+}
+
+.event-post.regular .post-tag img {
+    width: 8rem;
+    padding: 1rem;
+}
+.event-post .flex.gutter.sides {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 1rem;
+    max-height: 6rem;
+}
