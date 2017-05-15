@@ -325,3 +325,8 @@ Header .logo {
     display: block;
     width: 100%;
 }
+.more-articles {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-bottom: 1rem; */
+}
