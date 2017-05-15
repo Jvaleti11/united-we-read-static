@@ -245,10 +245,8 @@ h3 {
 .post-body .social{
 padding-top: 2rem;
 }
-.post-body .social ul li img {
-    max-width: 2rem;
-    max-height: 4rem;
-    margin: 0;
+.post-body .social ul li {
+
 }
 .post-body .social ul {
     list-style: none;
@@ -258,6 +256,7 @@ padding-top: 2rem;
     margin: 0;
 }
 .post-body .social ul li {
+    max-width: 5rem;
     padding:0 1rem;
     margin: 0;
 }
