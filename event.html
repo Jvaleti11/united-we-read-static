@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>library</title>
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/tent.css">
+    <!-- tent css and grid  -->
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/library.css">
+
+    <!-- about css -->
+  </head>
+
+  <body>
+    <header class="flex gutter sides">
+      <span class="logo">
+        <a href="index.html">
+          <img src="assets/branding/logo-ver-1.png" alt="UWR logo">
+        </a>
+      </span>
+      <nav>
+        <ul class="flex">
+          <li><a href="index.html">Library</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="event.html">• Event  •</a></li>
+          <li><a class="yellow" href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content yellow-background">
+      <div class="container blue-background grid__column--12">
+        <div class="grid ">
+          <div class="blog grid__column--10 ">
+            <!-- recent-blog-post-card  -->
+            <div class="recent-post events purple-background ">
+              <h1 class="yellow">Events</h1>
+            </div>
+            <!-- recent-blog-post-card  -->
+
+            <!-- More-post-heading   -->
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container yellow-background">
+        <div class="grid">
+          <div class="grid__column--4 blog">
+
+            <div class="post">
+              <!-- <h3 class="padding-top pink underline ">More Posts</h3> -->
+              <!-- Regular-post-cards   -->
+              <div class="event-poster yellow-background">
+                <img src="http://unitedwaysa.com.au/wp-content/uploads/2016/10/Joeys-Storytime-123-768x1086.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+    </main>
+    <!-- Scripts -->
+    <!-- /*  livereload  */ -->
+    <script>
+      console.log('hello');
+
+      function myFunction() {
+        document.getElementById("demo").style.color = "red";
+      }
+
+      function viewAll() {
+        var books = document.getElementById("books");
+        books.classList.toggle('view-all-item');
+
+        var view = document.getElementById("view_all");
+
+        if (view.innerHTML == 'View all') {
+          this.innerHTML = 'hide';
+        } else if (view == 'hide') {
+          document.getElementById("view_all").innerHTML = 'he'
+        };
+      };
+
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+
+    <!-- /*  livereload  */ -->
+    <!-- <script>
+
+    // function viewAll() {
+    //   var book = document.getElementById("books")
+    //   book NAME.className="mynewclass"
+    //   }
+    //   $('.view-all').click(viewAll() {
+    //     $(this).removeClass('myclass');
+    //     $(this).addClass('showhidenew');
+    //   });
+    </script> -->
+  </body>
+
+</html>

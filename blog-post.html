@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>blog-posts</title>
+    <link rel="stylesheet" href="assets/css/tent.css">
+    <!-- tent css and grid  -->
+    <link rel="stylesheet" href="assets/css/about.css">
+    <!-- library.css -->
+    <link rel="stylesheet" href="assets/css/library.css">
+    <!-- about css -->
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <!-- blog.css -->
+  </head>
+
+  <body>
+    <header class="flex gutter sides">
+      <span class="logo">
+        <a href="index.html">
+          <img src="assets/branding/logo-ver-1.png" alt="UWR logo">
+        </a>
+      </span>
+      <nav>
+        <ul class="flex">
+          <li><a href="index.html">Library</a></li>
+          <li><a class="yellow" href="blog.html">• Blog •</a></li>
+          <li><a href="event.html">Event</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="blog-post-inner">
+      <div class="recent-post card purple-background container">
+        <a href="blog-post.html">
+          <div class="post-tag flex single-space">
+            <div class="single-cell">
+              <div class="underline pink"></div>
+            </div>
+            <div class="flex column">
+              <h4 class="yellow"><strong>Sunday</strong></h4>
+              <p class="yellow">14-Feb-2016</p>
+            </div>
+          </div>
+          <div class="header flex">
+            <h2 class="yellow grid__column--5 gutter sides">Breathing Life into a Website</h2>
+          </div>
+          <div class="flex post-tag single-space gutter sides">
+            <div class="grid__column--1 single-cell small">
+              <div class="underline yellow"></div>
+            </div>
+            <h4 class="laid grid__column--3">by Mem Fox</h4>
+          </div>
+          <div class="card-body grid__column--5 gutter sides">
+            <span><img src="assets/img/icons/people.png" alt=""></span>
+          </div>
+        </a>
+      </div>
+
+      <!-- More post heading   -->
+      <div class="more-post gutter sides vertical yellow-background ">
+
+        <!-- Regular post cards   -->
+
+        <div class="post-inner">
+          <!-- <h4 class="gutter sides">Sun, 16 FEB 2017</h4> -->
+          <div class="post-body">
+            <p class="single-space">This blog and I are about to burst, at last, into the Twittersphere. I know! After everything I’ve ranted about in the past! Why the change of heart? A few unreal Mem Fox Twitter accounts had emerged, some hideous, (what is it that causes
+              people to be so mean?) and some kind, but none of them was me, or mine. So @therealmemfox has, perforce, had to creep out of its foxhole into the sunlight of social media. Good grief, it’s so bright out here! Before I go on, for those at
+              the SCBWI convention in LA in August who kept asking me where to buy my CDs: one for younger listeners from birth to 3, called Baby Magic and one for 3-7, called Classic Magic, go to Audible.com in the USA or Bolinda.com in Australia.
+
+            </p>
+            <img src="assets/img/mem.jpg" alt="millicent">
+            <blockquote cite="http://">
+              <h4>Promotional Advertising Specialty You Ve Waited Long Enough</h4>
+              <p><em>- by Greg Franks</em></p>
+            </blockquote>
+            <img src="assets/img/millicent-2.png" alt="">
+            <p> I have another exciting piece of news about POSSUM MAGIC. (Will that book never die?! Probably not. On its first publication, long ago, in 1983, it was an instant success, and has been voted by booksellers this year as Australia’s best-selling
+              children’s picture book. Still! In 2015! Why?! The illustrations, probably, thank you Julie Vivas!) Anyway, enough of the exclamation marks, my most common literary sin. POSSUM MAGIC is now out in yet another new edition, this time with
+              a CD inside the back cover, with me reading the story. I’m glad I didn’t wait any longer to record it. I’ll be 70 next year, and I might start to sound old, even though, as a baby boomer, I’ll never actually be ‘old’. Good grief. Such a
+              thought
+            </p>
+            <div class="social">
+              <h3><em>Share this article on</em></h3>
+              <ul>
+                <li><img src="assets/img/icons/facebook.png" alt="facebook share"></li>
+                <li><img src="assets/img/icons/twitter.png" alt="twitter share"></li>
+                <li><img src="assets/img/icons/whatsapp.png" alt="whatsapp share"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="post regular ending">
+          <h3 class="double-space d-padding-top underline pink">More Articles</h3>
+          <div class="more-articles flex">
+
+            <div class="more-article gutter">
+              <a href="#">
+                <h5 class="single-space">Fun books to read with your kids</h5>
+                <p>– by Kerry fisher</p>
+              </a>
+            </div>
+
+
+            <div class="more-article gutter">
+              <a href="#">
+                <h5 class="single-space">Making reading fun</h5>
+                <p>– by Meg Ryan</p>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+    </main>
+    <footer class="yellow-background">
+
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <!-- /*  livereload  */ -->
+    <script>
+      console.log('hello');
+
+      function myFunction() {
+        document.getElementById("demo").style.color = "red";
+      }
+
+      function viewAll() {
+        var books = document.getElementById("books");
+        books.classList.toggle('view-all-item');
+
+        var view = document.getElementById("view_all");
+
+        if (view.innerHTML == 'View all') {
+          this.innerHTML = 'hide';
+        } else if (view == 'hide') {
+          document.getElementById("view_all").innerHTML = 'he'
+        };
+      };
+
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+
+    <!-- /*  livereload  */ -->
+    <!-- <script>
+
+    // function viewAll() {
+    //   var book = document.getElementById("books")
+    //   book NAME.className="mynewclass"
+    //   }
+    //   $('.view-all').click(viewAll() {
+    //     $(this).removeClass('myclass');
+    //     $(this).addClass('showhidenew');
+    //   });
+    </script> -->
+  </body>
+
+</html>
