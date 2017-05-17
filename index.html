@@ -51,7 +51,7 @@
             <h3 class="pink">5 to 6 </h3>
             <h4 class="pink">years old</h4>
           </div>
-          <a onclick="viewAll()" id="view_all"><h5 class="white purple-background ">View all</h5><img src="" alt=""></a>
+          <a onclick="viewAll()" id="view_all"><h5 class="white purple-background ">Enlarge</h5><img src="" alt=""></a>
         </div>
         <div class="slider">
           <div id="overFlowNone" class="item">
@@ -122,11 +122,11 @@
             <h3 class="pink">3 to 4 </h3>
             <h4 class="pink">years old</h4>
           </div>
-          <a onclick="viewAll()" id="view_all"><h5 class="white purple-background">View all</h5><img src="" alt=""></a>
+          <a onclick="viewMore()" id="view_all"><h5 class="white purple-background">Enlarge</h5><img src="" alt=""></a>
         </div>
         <div class="slider">
           <div id="overFlowNone" class="item">
-            <ul id="books" class="flex">
+            <ul id="books-2" class="flex">
               <li>
                 <a href="#">
                   <div class="cover-art">
@@ -193,11 +193,11 @@
               <h3 class="pink">1 to 2 </h3>
               <h4 class="pink">years old</h4>
             </div>
-            <a onclick="viewAll()" id="view_all"><h5 class="white purple-background">View all</h5><img src="" alt=""></a>
+            <a onclick="viewSingle()" id="view-big"><h5 class="white purple-background">Enlarge</h5><img src="" alt=""></a>
           </div>
           <div class="slider">
             <div id="overFlowNone" class="item">
-              <ul id="books" class="flex">
+              <ul id="books-3" class="flex">
                 <li>
                   <a href="#">
                     <div class="cover-art">
@@ -267,12 +267,37 @@
     <script>
       console.log('hello');
 
-      function myFunction() {
-        document.getElementById("demo").style.color = "red";
-      }
-
       function viewAll() {
         var books = document.getElementById("books");
+        books.classList.toggle('view-all-item');
+
+        var view = document.getElementById("view_all");
+
+        if (view.innerHTML == 'View all') {
+          this.innerHTML = 'hide';
+        } else if (view == 'hide') {
+          document.getElementById("view_all").innerHTML = 'he'
+        };
+      };
+
+
+      function viewbig() {
+        var books = document.getElementById("books-2");
+        books.classList.toggle('view-all-item');
+
+        var view = document.getElementById("view-big");
+
+        if (view.innerHTML == 'View all') {
+          this.innerHTML = 'hide';
+        } else if (view == 'hide') {
+          document.getElementById("view_all").innerHTML = 'he'
+        };
+      };
+
+
+
+      function viewSingle() {
+        var books = document.getElementById("books-3");
         books.classList.toggle('view-all-item');
 
         var view = document.getElementById("view_all");
