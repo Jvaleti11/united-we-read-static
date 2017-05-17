@@ -365,3 +365,12 @@ Header .logo {
     padding-bottom: 1rem;
     max-height: 6rem;
 }
+.event-post .card-body h4.event-location {
+    padding: 0 0 1rem 1rem;
+}
+
+
+
+.gutter.single-space {
+    margin: 0px;
+}
