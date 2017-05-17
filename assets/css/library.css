@@ -9,12 +9,15 @@ header nav ul li{
   color: white;
 }
 .library {
-    background-image: url('../img/icons/lib-header.png');
-    background-blend-mode: luminosity;
-    min-height: 16rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url('../img/icons/lib-header.png');
+background-blend-mode: luminosity;
+min-height: 7;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: 64rem;
+background-position: 147px -33px;
+
 }
 
 .link {
@@ -175,14 +178,17 @@ a {
   width: auto;
 }
 .book-shelves{
-    background-image: url('../img/icons/people.png');
     background-size: 1rem;
     background-blend-mode: luminosity;
 }
 .book-shelves.yellow-background{
   background-blend-mode: color-burn;
   background-image: url('../img/icons/crz.png');
-background-size: 52rem;
+  background-size: 52rem;
+
+}
+.book-shelves.green-background{
+  background-image: url('../img/icons/green-icons.png');
 
 }
 .book-cover {
