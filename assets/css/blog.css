@@ -368,6 +368,21 @@ Header .logo {
 .event-post .card-body h4.event-location {
     padding: 0 0 1rem 1rem;
 }
+.recent-post.events {
+    max-width: 100%;
+}
+.event-post .yellow.pink-background.single-space {
+    padding: 1rem;
+    border-radius: 2px;
+    max-width: 8rem;
+}
+.more {
+    display: flex;
+    justify-content: center;
+}
+.more .shear ul {
+    margin: 0px;
+}
 
 
 
