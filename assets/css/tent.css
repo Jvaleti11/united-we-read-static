@@ -366,12 +366,17 @@ table td {
     display: flex;
     align-items: flex-end;
 }
-.recent-post.card.yellow-background {
+.recent-post.card.yellow-background,.recent-post.card.green-background, .recent-post.card.blue-background  {
     align-items: center;
     width: 100%;
     background-image: url("../img/icons/book-bac.png");
     background-blend-mode: overlay;
     background-size: 99rem;
+}
+.recent-post.card.green-background{
+  background-image: url(../img/icons/green-icons.png);
+  background-size: 22rem;
+background-repeat: repeat-y;
 }
 .book-cover{
       margin-right: 1rem;

@@ -197,7 +197,10 @@ a {
       background-size: 28rem;
       background-position: 6px 94px;
   }
-
+  .category.row.gutter.sides.vertical.ends {
+      display: flex;
+      align-items: center;
+  }
 .book-cover {
     max-width: 37rem;
 }
