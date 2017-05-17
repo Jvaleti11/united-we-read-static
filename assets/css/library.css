@@ -191,6 +191,13 @@ a {
   background-image: url('../img/icons/green-icons.png');
 
 }
+
+.book-shelves.blue-background{
+  background-image: url('../img/icons/blue-icons.png');
+      background-size: 28rem;
+      background-position: 6px 94px;
+  }
+
 .book-cover {
     max-width: 37rem;
 }
