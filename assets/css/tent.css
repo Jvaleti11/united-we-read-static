@@ -378,6 +378,9 @@ table td {
   background-size: 22rem;
 background-repeat: repeat-y;
 }
+.item ul#books, .item ul#books-2, .item ul#books-3{
+  overflow: auto;
+}
 .book-cover{
       margin-right: 1rem;
 }
