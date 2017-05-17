@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library-book</title>
+    <link rel="stylesheet" href="assets/css/tent.css">
+    <!-- tent css and grid  -->
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <!-- blog css -->
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/library.css">
+
+    <!-- about css -->
+  </head>
+
+  <body>
+    <header class="flex gutter sides">
+      <span class="logo">
+        <a href="index.html">
+          <img src="assets/branding/logo-ver-1.png" alt="UWR logo">
+        </a>
+      </span>
+      <nav>
+        <ul class="flex">
+          <li><a class="yellow" href="index.html">• Library •</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="event.html">Event</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class='container--fluid'>
+      <div class="recent-post card yellow-background">
+        <div class="header double-space padding-top">
+          <div class="cover-art gutter sides">
+            <div class="flex column single-space">
+              <h3 class="pink">5 to 6</h3>
+              <h4 class="pink">years old</h4>
+            </div>
+            <div class="book-cover">
+              <img src="assets/img/book-covers/bookcover-3.jpg" alt="book cover">
+            </div>
+
+          </div>
+          <div class="book-body column">
+            <!-- <img class="large gutter-left" src="assets/img/icons/pink-left.svg" alt="">
+            <img class="small gutter-left" src="assets/img/icons/blue-up.svg" alt=""> -->
+            <div class="link">
+              <div class="buttons single-space">
+                <a href="http://www.childrensbooksforever.com/Childrenpics/NEVER%20LONELY%20AGAIN.pdf"><h6 class="yellow pink-background single-space">Read it</h6></a>
+                <a href="http://www.dscl.org/kids/nest-activity-resources/helenkeller.pdf"><h4 class="pink-background yellow gutter sides">Activity</h4></a>
+              </div>
+              <div class="flex post-tag double-space gutter sides">
+                <div class="grid__column--1 single-cell small">
+                  <div class="underline pink"></div>
+                </div>
+                <h4 class=" grid__column--3 purple">by Vintage Barrie</h4>
+                <span class="grid__column--1"></span>
+              </div>
+              <div class="card-body">
+                <!-- <img src="" alt=""> -->
+                <p class="black gutter sides quadruple-space">Tommy and his sister Annika have a new neighbor, and her name is Pippi Longstocking. She has crazy red pigtails, no parents to tell her what to do, a horse that lives on her porch, and a flair for the outrageous that seems to lead to one adventure after another!</p>
+                <!-- <img src="assets/img/icons/flurish-mid-green.png" alt=""> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- Scripts -->
+    <!-- /*  livereload  */ -->
+    <script>
+      console.log('hello');
+
+      function myFunction() {
+        document.getElementById("demo").style.color = "red";
+      }
+
+      function viewAll() {
+        var books = document.getElementById("books");
+        books.classList.toggle('view-all-item');
+
+        var view = document.getElementById("view_all");
+
+        if (view.innerHTML == 'View all') {
+          this.innerHTML = 'hide';
+        } else if (view == 'hide') {
+          document.getElementById("view_all").innerHTML = 'he'
+        };
+      };
+
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+
+    <!-- /*  livereload  */ -->
+    <!-- <script>
+
+    // function viewAll() {
+    //   var book = document.getElementById("books")
+    //   book NAME.className="mynewclass"
+    //   }
+    //   $('.view-all').click(viewAll() {
+    //     $(this).removeClass('myclass');
+    //     $(this).addClass('showhidenew');
+    //   });
+    </script> -->
+  </body>
+
+</html>
